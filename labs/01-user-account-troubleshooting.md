@@ -1,6 +1,5 @@
 # Lab 01 — Windows User Account Troubleshooting
 
-
 ## Scenario
 
 A user reported that they were unable to log into their Windows computer.
@@ -43,6 +42,10 @@ TestUser    True
 
 This confirmed that the account was initially enabled before the troubleshooting scenario was created.
 
+### Evidence
+
+![Initial TestUser account status](../screenshots/lab-01/01-account-working.png)
+
 ---
 
 ## 3. Creating the Problem
@@ -69,7 +72,7 @@ This confirmed that the account had been disabled.
 
 ### Evidence
 
-`02-account-disabled.png`
+![TestUser account disabled](../screenshots/lab-01/02-account-disabled.png)
 
 ---
 
@@ -115,7 +118,7 @@ Enabled : True
 
 ### Evidence
 
-`03-account-re-enabled.png`
+![TestUser account re-enabled](../screenshots/lab-01/03-account-re-enabled.png)
 
 ---
 
@@ -127,7 +130,7 @@ The login was successful, and I was able to access the Windows desktop.
 
 ### Evidence
 
-`04-successful-login.png`
+![Successful TestUser login](../screenshots/lab-01/04-successful-login.png)
 
 This confirmed that the fix was successful.
 
