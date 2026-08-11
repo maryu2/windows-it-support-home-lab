@@ -21,19 +21,7 @@ The lab uses a Windows virtual machine running in VirtualBox.
 
 ## Troubleshooting Labs
 
-1. User account troubleshooting
-windows-it-support-home-lab/
-│
-├── labs/
-│   └── 01-user-account-troubleshooting.md
-│
-└── screenshots/
-    └── lab-01/
-        ├── 01-account-working.png
-        ├── 02-account-disabled.png
-        ├── 03-account-re-enabled.png
-        └── 04-successful-login.png
-   
+1. User account troubleshooting   
 3. Network troubleshooting
 4. DNS troubleshooting
 5. Windows service troubleshooting
