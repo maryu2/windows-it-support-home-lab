@@ -2,34 +2,193 @@
 
 ## Overview
 
-A hands-on Windows troubleshooting lab created to develop practical IT Support skills.
+A hands-on Windows troubleshooting home lab created to develop and demonstrate practical IT Support skills.
 
-The lab uses a Windows virtual machine running in VirtualBox.
+The lab uses a Windows 11 virtual machine running in Oracle VirtualBox. Common Windows issues are deliberately created in a controlled environment, investigated using built-in Windows tools and PowerShell, resolved, and documented.
 
-## Tools
+Each troubleshooting exercise follows a structured process:
 
-- Windows 11
-- VirtualBox
-- PowerShell
-- Command Prompt
-- Event Viewer
-- Device Manager
-- Task Manager
-- Windows Services
-- GitHub
-- Markdown
+**Problem → Investigation → Root Cause → Fix → Verification**
 
-## Troubleshooting Labs
+The purpose of this project is to build practical troubleshooting experience and demonstrate the ability to investigate, resolve, test, and document common Windows IT Support issues.
 
-1. User account troubleshooting   
-3. Network troubleshooting
-4. DNS troubleshooting
-5. Windows service troubleshooting
-6. Disk space troubleshooting
-7. Windows permissions
-8. Software troubleshooting
-9. Event Viewer investigation
-10. Device/driver troubleshooting
-11. Printer troubleshooting
+---
 
+## Lab Environment
 
+* **Operating System:** Windows 11
+* **Virtualisation Platform:** Oracle VirtualBox
+* **PowerShell**
+* **Command Prompt**
+* **Event Viewer**
+* **Device Manager**
+* **Task Manager**
+* **Windows Services**
+* **GitHub**
+
+---
+
+# Troubleshooting Labs
+
+## Lab 01 — Windows User Account Troubleshooting
+
+**Status:** Completed
+
+A local Windows user account was deliberately disabled to simulate a user login problem.
+
+The issue was investigated using PowerShell. The account status was checked, the root cause was identified, the account was re-enabled, and the solution was verified by successfully logging into Windows as the affected user.
+
+### Skills Demonstrated
+
+* Windows user account troubleshooting
+* Local user administration
+* PowerShell
+* Administrator privileges
+* Root-cause identification
+* Troubleshooting methodology
+* Problem resolution
+* Verification and testing
+* Technical documentation
+
+### Tools Used
+
+* Windows 11
+* Oracle VirtualBox
+* PowerShell
+* Local User Management
+
+[View Lab 01 — Windows User Account Troubleshooting](labs/01-user-account-troubleshooting.md)
+
+---
+
+## Lab 02 — Network Troubleshooting
+
+**Status:** Planned
+
+A controlled network connectivity problem will be created in the Windows virtual machine.
+
+The issue will be investigated using Windows networking tools and PowerShell/Command Prompt commands such as:
+
+```text
+ipconfig
+ping
+```
+
+The troubleshooting process will identify the cause of the connectivity problem, apply an appropriate fix, and verify network connectivity.
+
+### Planned Skills
+
+* Basic Windows network troubleshooting
+* IP configuration
+* Network connectivity testing
+* Command-line diagnostics
+* Troubleshooting methodology
+* Root-cause identification
+* Verification and testing
+
+---
+
+## Lab 03 — Windows Service Troubleshooting
+
+**Status:** Planned
+
+A Windows service problem will be deliberately created in the virtual machine.
+
+The service will be investigated using Windows Services and PowerShell. The troubleshooting process will identify the service status, determine the cause of the problem, apply a fix, and verify that the service is operating correctly.
+
+### Planned Skills
+
+* Windows Services
+* PowerShell
+* Service status investigation
+* Windows administration
+* Root-cause identification
+* Problem resolution
+* Verification and testing
+
+---
+
+# Evidence
+
+Completed labs include supporting screenshots documenting the troubleshooting process.
+
+Evidence may include:
+
+* Initial system state
+* The deliberately created problem
+* Investigation and diagnostic results
+* Commands and tools used
+* The identified root cause
+* The applied fix
+* Verification that the problem was resolved
+
+Screenshots are stored in the repository alongside the relevant lab documentation.
+
+---
+
+# Troubleshooting Method
+
+Each lab follows a consistent troubleshooting approach:
+
+### 1. Problem
+
+Identify and describe the issue from the user's perspective.
+
+### 2. Investigation
+
+Gather information using appropriate Windows tools and commands.
+
+### 3. Root Cause
+
+Identify the most likely cause based on the investigation.
+
+### 4. Fix
+
+Apply an appropriate solution.
+
+### 5. Verification
+
+Test the system again to confirm that the problem has been resolved.
+
+### 6. Documentation
+
+Document the troubleshooting process, commands used, results, and supporting evidence.
+
+---
+
+# Skills Being Developed
+
+Through this home lab, I am developing practical experience in:
+
+* Windows troubleshooting
+* User account administration
+* PowerShell
+* Command-line troubleshooting
+* Network diagnostics
+* Windows Services
+* Root-cause analysis
+* Problem resolution
+* Verification and testing
+* Technical documentation
+
+---
+
+# Project Goal
+
+The goal of this project is to build practical Windows IT Support skills through hands-on troubleshooting in a controlled virtual environment.
+
+Rather than only documenting theoretical knowledge, each lab involves deliberately creating a problem, investigating the symptoms, identifying the cause, applying a solution, and verifying the result.
+
+This approach is intended to develop a structured and methodical approach to IT Support troubleshooting.
+
+---
+
+# Lab Status
+
+**Completed:** 1 of 3 labs
+
+* [x] Lab 01 — Windows User Account Troubleshooting
+* [ ] Lab 02 — Network Troubleshooting
+* [ ] Lab 03 — Windows Service Troubleshooting
+
+The repository will be updated as each troubleshooting scenario is completed and documented.
