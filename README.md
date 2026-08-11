@@ -22,14 +22,26 @@ The lab uses a Windows virtual machine running in VirtualBox.
 ## Troubleshooting Labs
 
 1. User account troubleshooting
-2. Network troubleshooting
-3. DNS troubleshooting
-4. Windows service troubleshooting
-5. Disk space troubleshooting
-6. Windows permissions
-7. Software troubleshooting
-8. Event Viewer investigation
-9. Device/driver troubleshooting
-10. Printer troubleshooting
+windows-it-support-home-lab/
+│
+├── labs/
+│   └── 01-user-account-troubleshooting.md
+│
+└── screenshots/
+    └── lab-01/
+        ├── 01-account-working.png
+        ├── 02-account-disabled.png
+        ├── 03-account-re-enabled.png
+        └── 04-successful-login.png
+   
+3. Network troubleshooting
+4. DNS troubleshooting
+5. Windows service troubleshooting
+6. Disk space troubleshooting
+7. Windows permissions
+8. Software troubleshooting
+9. Event Viewer investigation
+10. Device/driver troubleshooting
+11. Printer troubleshooting
 
 
