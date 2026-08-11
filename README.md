@@ -4,7 +4,7 @@
 
 A hands-on Windows troubleshooting home lab created to develop and demonstrate practical IT Support skills.
 
-The lab uses a Windows 11 virtual machine running in Oracle VirtualBox. Common Windows issues are deliberately created in a controlled environment, investigated using built-in Windows tools and PowerShell, resolved, and documented.
+The lab uses a Windows 11 virtual machine running in Oracle VirtualBox. Common Windows issues are deliberately created in a controlled environment, investigated using built-in Windows tools and command-line utilities, resolved, and documented.
 
 Each troubleshooting exercise follows a structured process:
 
@@ -61,30 +61,41 @@ The issue was investigated using PowerShell. The account status was checked, the
 
 ---
 
-## Lab 02 — Network Troubleshooting
+## Lab 02 — Windows DNS Troubleshooting
 
-**Status:** Planned
+**Status:** Completed
 
-A controlled network connectivity problem will be created in the Windows virtual machine.
+A controlled DNS configuration problem was deliberately created in the Windows virtual machine.
 
-The issue will be investigated using Windows networking tools and PowerShell/Command Prompt commands such as:
+The investigation used `ipconfig`, `ipconfig /all`, `ping`, `nslookup`, and `netsh` to determine whether the issue was related to general network connectivity or DNS resolution.
 
-```text
-ipconfig
-ping
-```
+The VM was able to communicate with an external IP address while DNS resolution was failing. The DNS configuration was investigated, the incorrect DNS server was identified, the original configuration was restored, and DNS resolution was successfully verified.
 
-The troubleshooting process will identify the cause of the connectivity problem, apply an appropriate fix, and verify network connectivity.
+### Skills Demonstrated
 
-### Planned Skills
-
-* Basic Windows network troubleshooting
-* IP configuration
+* Windows DNS troubleshooting
 * Network connectivity testing
+* DNS resolution testing
+* IP configuration
 * Command-line diagnostics
-* Troubleshooting methodology
+* Network configuration
 * Root-cause identification
+* Troubleshooting methodology
+* Problem resolution
 * Verification and testing
+* Technical documentation
+
+### Tools Used
+
+* Windows 11
+* Oracle VirtualBox
+* Command Prompt
+* `ipconfig`
+* `ping`
+* `nslookup`
+* `netsh`
+
+[View Lab 02 — Windows DNS Troubleshooting](labs/02-dns-troubleshooting.md)
 
 ---
 
@@ -164,7 +175,7 @@ Through this home lab, I am developing practical experience in:
 * User account administration
 * PowerShell
 * Command-line troubleshooting
-* Network diagnostics
+* Network and DNS diagnostics
 * Windows Services
 * Root-cause analysis
 * Problem resolution
@@ -185,10 +196,10 @@ This approach is intended to develop a structured and methodical approach to IT 
 
 # Lab Status
 
-**Completed:** 1 of 3 labs
+**Completed: 2 of 3 labs**
 
 * [x] Lab 01 — Windows User Account Troubleshooting
-* [ ] Lab 02 — Network Troubleshooting
+* [x] Lab 02 — Windows DNS Troubleshooting
 * [ ] Lab 03 — Windows Service Troubleshooting
 
 The repository will be updated as each troubleshooting scenario is completed and documented.
