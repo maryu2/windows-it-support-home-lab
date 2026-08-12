@@ -56,7 +56,8 @@ This confirmed that the Print Spooler was operating normally before the troubles
 
 ### Evidence
 
-![Lab 03 - Print Spooler initially running](screenshots/01-spooler-working.png)
+![Lab 03 - Print Spooler initially running](/screenshots/01-spooler-working.png)
+
 
 ---
 
@@ -100,7 +101,7 @@ This confirmed that the service had been stopped while remaining configured for 
 
 ### Evidence
 
-![Lab 03 - Print Spooler stopped](screenshots/02-spooler-stopped.png)
+![Lab 03 - Print Spooler stopped](/screenshots/02-spooler-stopped.png)
 
 ---
 
@@ -136,7 +137,7 @@ Because this was a deliberately created lab scenario, the stopped service was id
 
 ### Evidence
 
-![Lab 03 - Print Spooler investigation](screenshots/03-spooler-investigation.png)
+![Lab 03 - Print Spooler investigation](/screenshots/03-spooler-investigation.png)
 
 ---
 
@@ -192,7 +193,7 @@ The service was therefore successfully restored.
 
 ### Evidence
 
-![Lab 03 - Print Spooler restored](screenshots/04-spooler-fixed.png)
+![Lab 03 - Print Spooler restored](/screenshots/04-spooler-fixed.png)
 
 ---
 
