@@ -16,15 +16,15 @@ The purpose of this project is to build practical troubleshooting experience and
 
 ## Lab Environment
 
-* **Operating System:** Windows 11
-* **Virtualisation Platform:** Oracle VirtualBox
-* **PowerShell**
-* **Command Prompt**
-* **Event Viewer**
-* **Device Manager**
-* **Task Manager**
-* **Windows Services**
-* **GitHub**
+- **Operating System:** Windows 11
+- **Virtualisation Platform:** Oracle VirtualBox
+- **PowerShell**
+- **Command Prompt**
+- **Event Viewer**
+- **Device Manager**
+- **Task Manager**
+- **Windows Services**
+- **GitHub**
 
 ---
 
@@ -40,22 +40,22 @@ The issue was investigated using PowerShell. The account status was checked, the
 
 ### Skills Demonstrated
 
-* Windows user account troubleshooting
-* Local user administration
-* PowerShell
-* Administrator privileges
-* Root-cause identification
-* Troubleshooting methodology
-* Problem resolution
-* Verification and testing
-* Technical documentation
+- Windows user account troubleshooting
+- Local user administration
+- PowerShell
+- Administrator privileges
+- Root-cause identification
+- Troubleshooting methodology
+- Problem resolution
+- Verification and testing
+- Technical documentation
 
 ### Tools Used
 
-* Windows 11
-* Oracle VirtualBox
-* PowerShell
-* Local User Management
+- Windows 11
+- Oracle VirtualBox
+- PowerShell
+- Local User Management
 
 [View Lab 01 — Windows User Account Troubleshooting](labs/01-user-account-troubleshooting.md)
 
@@ -73,27 +73,27 @@ The VM was able to communicate with an external IP address while DNS resolution 
 
 ### Skills Demonstrated
 
-* Windows DNS troubleshooting
-* Network connectivity testing
-* DNS resolution testing
-* IP configuration
-* Command-line diagnostics
-* Network configuration
-* Root-cause identification
-* Troubleshooting methodology
-* Problem resolution
-* Verification and testing
-* Technical documentation
+- Windows DNS troubleshooting
+- Network connectivity testing
+- DNS resolution testing
+- IP configuration
+- Command-line diagnostics
+- Network configuration
+- Root-cause identification
+- Troubleshooting methodology
+- Problem resolution
+- Verification and testing
+- Technical documentation
 
 ### Tools Used
 
-* Windows 11
-* Oracle VirtualBox
-* Command Prompt
-* `ipconfig`
-* `ping`
-* `nslookup`
-* `netsh`
+- Windows 11
+- Oracle VirtualBox
+- Command Prompt
+- `ipconfig`
+- `ping`
+- `nslookup`
+- `netsh`
 
 [View Lab 02 — Windows DNS Troubleshooting](labs/02-dns-troubleshooting.md)
 
@@ -101,21 +101,36 @@ The VM was able to communicate with an external IP address while DNS resolution 
 
 ## Lab 03 — Windows Service Troubleshooting
 
-**Status:** Planned
+**Status:** Completed
 
-A Windows service problem will be deliberately created in the virtual machine.
+A Windows Print Spooler service problem was deliberately created in the Windows virtual machine to simulate a service-related printing issue.
 
-The service will be investigated using Windows Services and PowerShell. The troubleshooting process will identify the service status, determine the cause of the problem, apply a fix, and verify that the service is operating correctly.
+The Print Spooler service was stopped and investigated using PowerShell and Windows service management tools. The service status and configuration were checked, the root cause was identified, the service was restarted, and the result was verified.
 
-### Planned Skills
+### Skills Demonstrated
 
-* Windows Services
-* PowerShell
-* Service status investigation
-* Windows administration
-* Root-cause identification
-* Problem resolution
-* Verification and testing
+- Windows service troubleshooting
+- PowerShell
+- Windows administration
+- Service status investigation
+- Service configuration
+- Event log investigation
+- Root-cause identification
+- Troubleshooting methodology
+- Problem resolution
+- Verification and testing
+- Technical documentation
+
+### Tools Used
+
+- Windows 11
+- Oracle VirtualBox
+- PowerShell
+- Windows Services
+- Service Control Manager
+- Windows Event Log
+
+[View Lab 03 — Windows Service Troubleshooting](labs/03-windows-service-troubleshooting.md)
 
 ---
 
@@ -125,15 +140,15 @@ Completed labs include supporting screenshots documenting the troubleshooting pr
 
 Evidence may include:
 
-* Initial system state
-* The deliberately created problem
-* Investigation and diagnostic results
-* Commands and tools used
-* The identified root cause
-* The applied fix
-* Verification that the problem was resolved
+- Initial system state
+- The deliberately created problem
+- Investigation and diagnostic results
+- Commands and tools used
+- The identified root cause
+- The applied fix
+- Verification that the problem was resolved
 
-Screenshots are stored in the repository alongside the relevant lab documentation.
+Screenshots are stored in the repository's `screenshots/` directory and referenced from the relevant lab documentation.
 
 ---
 
@@ -151,7 +166,7 @@ Gather information using appropriate Windows tools and commands.
 
 ### 3. Root Cause
 
-Identify the most likely cause based on the investigation.
+Identify the most likely cause based on the investigation and diagnostic results.
 
 ### 4. Fix
 
@@ -167,20 +182,21 @@ Document the troubleshooting process, commands used, results, and supporting evi
 
 ---
 
-# Skills Being Developed
+# Skills Developed
 
-Through this home lab, I am developing practical experience in:
+Through this home lab, I have developed practical experience in:
 
-* Windows troubleshooting
-* User account administration
-* PowerShell
-* Command-line troubleshooting
-* Network and DNS diagnostics
-* Windows Services
-* Root-cause analysis
-* Problem resolution
-* Verification and testing
-* Technical documentation
+- Windows troubleshooting
+- User account administration
+- PowerShell
+- Command-line troubleshooting
+- Network and DNS diagnostics
+- Windows Services
+- Event log investigation
+- Root-cause analysis
+- Problem resolution
+- Verification and testing
+- Technical documentation
 
 ---
 
@@ -190,16 +206,16 @@ The goal of this project is to build practical Windows IT Support skills through
 
 Rather than only documenting theoretical knowledge, each lab involves deliberately creating a problem, investigating the symptoms, identifying the cause, applying a solution, and verifying the result.
 
-This approach is intended to develop a structured and methodical approach to IT Support troubleshooting.
+This approach demonstrates a structured and methodical approach to IT Support troubleshooting.
 
 ---
 
 # Lab Status
 
-**Completed: 2 of 3 labs**
+**Completed: 3 of 3 labs**
 
-* [x] Lab 01 — Windows User Account Troubleshooting
-* [x] Lab 02 — Windows DNS Troubleshooting
-* [ ] Lab 03 — Windows Service Troubleshooting
+- [x] Lab 01 — Windows User Account Troubleshooting
+- [x] Lab 02 — Windows DNS Troubleshooting
+- [x] Lab 03 — Windows Service Troubleshooting
 
-The repository will be updated as each troubleshooting scenario is completed and documented.
+All three planned troubleshooting scenarios have been completed and documented.
